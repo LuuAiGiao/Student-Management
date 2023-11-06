@@ -8,7 +8,7 @@ export default function Navigation() {
         <AppBar style={{ backgroundColor: 'pink', color: 'black' }}>
             <Toolbar>
                 <Typography variant='h4'>
-                    PE
+                    Lab
                 </Typography>
                 <Button style={{ fontSize: '18px', marginLeft: '50px', fontWeight: 'bold' }} color='inherit' component={Link} to='/' >Home</Button>
                 <Button style={{ fontSize: '18px', marginLeft: '50px', fontWeight: 'bold' }} color='inherit' component={Link} to='/dashboard'>Dashboard</Button>

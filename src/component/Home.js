@@ -31,7 +31,7 @@ export default function Home() {
       }
     )
       // .then(data => setAPIData(data))
-      .then(data => { setAPIData(data.sort(data.name)) })
+      .then(data => { setAPIData(data.sort((data.name))) })
       .catch(error => console.log(error.message));
   }, [])
 
